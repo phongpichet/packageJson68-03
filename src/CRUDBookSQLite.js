@@ -18,8 +18,8 @@ app.use(express.json());
 db.run(`CREATE TABLE IF NOT EXISTS books (
     id INTERGER PRIMARY KEY,
     title TEXT,
-    author TEXT)`);
-
+    author TEXT
+    )`);
 
 //route to get all books
 app.get('/books',(req,res) => {

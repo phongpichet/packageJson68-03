@@ -1,5 +1,6 @@
 //SequilzeSQLiteCRUDBook.js 
-//Description: Node Express REST API with sequelize and SQLite CRUD Book 
+//Description: Node Express REST API with sequelize and SQLite CRUD 
+Book 
 //npm install express sequelize sqlite3 
 //Run this file with node SequlizeSQLiteCRUDBook.js 
 //Test with Postman 

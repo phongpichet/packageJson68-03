@@ -16,7 +16,7 @@ app.use(express.json());
 
 //create books table if it doesn't exist
 db.run(`CREATE TABLE IF NOT EXISTS books (
-    id INTERGER PRIMARY KEY,
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
     title TEXT,
     author TEXT
     )`);
